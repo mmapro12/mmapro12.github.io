@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Personal Website</title>
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <style>
+    body {
+      background-color: #fefefe;
+      color: #111;
+      font-family: Georgia, serif;
+      max-width: 750px;
+      margin: 40px auto;
+      padding: 0 24px;
+      line-height: 1.7;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    h1 {
+      font-size: 2.2em;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.3em;
+      margin-bottom: 1em;
+      font-variant: small-caps;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      margin-top: 2em;
+      font-size: 1.6em;
+      color: #333;
+      font-variant: small-caps;
+      letter-spacing: 1px;
+    }
+
+    a {
+      color: #0645AD;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 1em;
+    }
+
+    .project {
+      background: #f9f9f9;
+      border: 1px solid #ddd;
+      padding: 12px 16px;
+      border-radius: 8px;
+    }
+
+    .project strong {
+      font-size: 1.1em;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin: 40px 0;
+    }
+
+    blockquote {
+      font-style: italic;
+      color: #555;
+      margin-top: 40px;
+      border-left: 3px solid #ccc;
+      padding-left: 1em;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+        margin: 20px auto;
+      }
+    }
+
+    /* Dark mode */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #121212;
+        color: #e0e0e0;
+      }
+
+      h1, h2 {
+        color: #f0f0f0;
+      }
+
+      a {
+        color: #8ab4f8;
+      }
+
+      .project {
+        background: #1e1e1e;
+        border-color: #333;
+      }
+
+      blockquote {
+        color: #bbb;
+        border-left-color: #444;
+      }
+
+      hr {
+        border-top: 1px solid #444;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Personal Website</h1>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a 16-year-old programmer who started with Scratch, then explored Python (bs4, PyQt5, and computer vision).
+      I later discovered C and fell in love with memory management and low-level programming. I use Linux,
+      enjoy writing my own tools, and I'm deeply interested in kernel, driver, and operating system development.
+      I also love documenting what I learn and sharing it.
+    </p>
+  </section>
+
+  <hr>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li class="project">
+        <strong>Miyobi</strong><br />
+        A screen-distance tracking app that dims the display.<br />
+        <small>Optimized for 0% CPU and 240 MB RAM.</small>
+      </li>
+      <li class="project">
+        <strong>Turkman</strong><br />
+        A CLI tool that translates Linux man pages into Turkish.
+      </li>
+    </ul>
+  </section>
+
+  <hr>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <ul>
+      <li>Email: <a href="mailto:asia172007@gmail.com">asia172007@gmail.com</a></li>
+      <li>
+        GitHub:
+        <a href="https://github.com/mmapro12" target="_blank">
+          <i class="fab fa-github"></i> github.com/mmapro12
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <blockquote>
+    "Code is poetry."
+  </blockquote>
+
+  <p style="font-size: 0.9em; color: #888; text-align: center; margin-top: 60px;">
+    Last updated: May 2025
+  </p>
+
+</body>
+</html>
